@@ -1,0 +1,313 @@
+@font-face {
+    font-family: mythiadproreg;
+    src: url(../../assets/font/MYRIADPRO-REGULAR.otf);
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: mythiadprosemibold;
+    src: url(../../assets/font/MYRIADPRO-SEMIBOLD.otf);
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: passionone;
+    src: url(../../assets/font/PassionOne-Regular.otf);
+    font-display: swap;
+}
+
+html{
+    width: 100%;
+    font-family: mythiadproreg;
+}
+
+body{
+    color: #A2B7CC;
+    font-family: mythiadproreg;
+}
+
+h1{
+    color: #6B8299 !important;
+    font-family: mythiadprosemibold;
+}
+
+h2{
+    color: #6B8299 !important;
+    font-family: mythiadprosemibold;
+}
+
+h3{
+    color: #6B8299 !important;
+    font-family: mythiadprosemibold;
+}
+
+h4{
+    color: #6B8299 !important;
+    font-family: mythiadprosemibold;
+}
+
+h5{
+    color: #6B8299 !important;
+    font-family: mythiadprosemibold;
+}
+
+h6{
+    color: #6B8299 !important;
+    font-family: mythiadprosemibold;
+}
+
+.table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: left !important;
+    word-break: break-all;
+    margin: 0 auto 0 auto;
+    overflow: hidden !important;
+}
+
+.table td, .table th{
+    padding: 0;
+    overflow: auto;
+    vertical-align: top;
+    overflow: hidden !important;
+}
+
+.pinktext{
+    color: #FF7CFF !important;
+}
+
+.navbar{
+    background-color: transparent;
+    z-index: 250;
+}
+
+.nav-link.active{
+    color: #FF7CFF !important;
+}
+
+.nav-link{
+    color: #fbfbfb !important;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:hover{
+    color: #fbfbfb !important;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:visited{
+    color: #fbfbfb !important;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus{
+    color: #fbfbfb !important;
+}
+
+.bghead1{
+    padding-top: 8rem;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/img/bg1.png") center center no-repeat;
+    background-size: cover;
+}
+
+.bghead2{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/img/detailbg.png") center center no-repeat;
+    background-size: cover;
+}
+
+.bghead3{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.modleimg{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tokeninfoimg{
+    width: 60% !important;
+    height: auto;
+}
+
+.spaced{
+    margin-bottom: 6rem !important;
+}
+
+#cardintro{
+    border: 1px solid rgba(0, 131, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 1rem rgba(0, 131, 255, 0.1) !important;
+    top: -6rem !important;
+}
+
+#cardstake{
+    z-index: 100;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 .5rem .5rem rgba(0, 0, 0, 0.05) !important;
+}
+
+#estimatornow{
+    padding-top: 3rem;
+    top: -3rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 .5rem .5rem rgba(0, 0, 0, 0.05) !important;
+}
+
+#cardfooter{
+    border: 1px solid rgba(0, 131, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 1rem rgba(0, 131, 255, 0.1) !important;
+    bottom: -4rem !important;
+}
+
+.navdown{
+    background: transparent !important;
+    margin-top: 0 !important;
+}
+
+.dropdown-menu-stake{
+    background: #f8f9fa !important;
+    color: #212529 !important;
+    width: 96%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.dropdown-item-stake{
+    color: #212529 !important;
+}
+
+.dropdown-item-stake:hover {
+    text-decoration: none;
+    background-color: RGBA(95, 176, 247, 0.2) !important;
+}
+
+.stakess {
+    padding: 1.5rem;
+}
+
+.togglemn {
+    background: #f8f9fa !important;
+    color: #212529 !important;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.inlineinfo {
+    background: #f8f9fa !important;
+    color: #212529 !important;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.stakebtn {
+    background: #0083ff !important;
+    color: #fbfbfb !important;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.custparaf{
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: #212529;
+}
+
+.forminputt {
+    background: #e6ecf2 !important;
+    color: #212529 !important;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.copyright{
+    padding-top: 4rem;
+}
+
+.changepaddingcol{
+    position: relative;
+    width: 100%;
+    padding: 5px !important;
+}
+
+#eventalert{
+    position: relative !important;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobilenoload {
+        display:none;
+    }
+
+    .navbar{
+        background-color: #0083ff !important;
+        z-index: 250;
+    }
+    
+    .nav-link.active{
+        color: #FF7CFF !important;
+    }
+    
+    .nav-link{
+        color: #fbfbfb !important;
+    }
+    
+    .navigation-clean.navbar-light .navbar-nav .nav-link:hover{
+        color: #fbfbfb !important;
+    }
+    
+    .navigation-clean.navbar-light .navbar-nav .nav-link:visited{
+        color: #fbfbfb !important;
+    }
+    
+    .navigation-clean.navbar-light .navbar-nav .nav-link:focus{
+        color: #fbfbfb !important;
+    }
+
+    .dropdown-menu{
+        background: transparent !important;
+        color: #fbfbfb !important;
+        border: none;
+    }
+
+    .navigation-clean .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #fbfbfb;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+        line-height: 1;
+    }
+
+    .navigation-clean .dropdown-menu .dropdown-item:hover {
+        background: transparent;
+        color: inherit;
+    }
+
+    .dropdown-menu-stake{
+        background: #f8f9fa !important;
+        color: #212529 !important;
+        width: 96%;
+        margin-top: 5px;
+        border-radius: 10px;
+    }
+    
+    .dropdown-item-stake{
+        color: #212529 !important;
+    }
+    
+    .dropdown-item-stake:hover {
+        text-decoration: none;
+        background-color: RGBA(95, 176, 247, 0.2) !important;
+    }
+}

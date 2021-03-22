@@ -1,0 +1,75 @@
+main {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+}
+.rm {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid !important;
+  /*border-image: linear-gradient(to right, #FF2D82 0%, #FF2D82 100%);*/
+  border-image: linear-gradient(to right, #743ad5 0%, #FF2D82 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  margin-bottom: 0 !important;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: #34435e;
+}
+.rm:before {
+  content: counter(section);
+  position: absolute;
+  border: 3px solid #FF2D82;
+  border-radius: 50%;
+  padding: 3px !important;
+  height: 2.50em;
+  width: 2.50em;
+  background-color: #1d2933;
+  text-align: center;
+  line-height: 1.25em;
+  color: #fff;
+  font-size: 1em;
+}
+.rm1:before{
+  content: url("https://yfdot.finance/assets/img/rm1.png") !important;
+}
+.rm2:before{
+  content: url("https://yfdot.finance/assets/img/rm2.png") !important;
+}
+.rm3:before{
+  content: url("https://yfdot.finance/assets/img/rm3.png") !important;
+}
+.rm4:before{
+  content: url("https://yfdot.finance/assets/img/rm4.png") !important;
+}
+.rm5:before{
+  content: url("https://yfdot.finance/assets/img/rm5.png") !important;
+}
+.rm:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+}
+.rm:nth-child(odd):before {
+  left: 100%;
+  margin-left: -20px;
+}
+.rm:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
+}
+.rm:nth-child(even):before {
+  right: 100%;
+  margin-right: -20px;
+  border-color: #743ad5 !important;
+}
+.rm:first-child {
+  border-top: 0 !important;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.rm:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
