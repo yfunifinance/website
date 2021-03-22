@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>404 Not Found - YFUNI</title>
+    <link rel="icon" href="https://yfuni.finance/assets/img/favicon.ico" >
+</head>
+
+<body style="background: url('https://yfuni.finance/assets/img/detailbg.png') center center no-repeat; overflow: hidden">
+    <div style="position: absolute; width: 100%; height: 100%; color: #fbfbfb;">
+        <div style="position: relative; top: 50%; transform: translateY(-50%);">
+			<center>
+				<img src="https://yfuni.finance/assets/img/403.png" style="width: 20%; height: auto" alt="yfuni error 403" /></br>
+				<h2 style="color: #fbfbfb">Forbidden Access!<h2></br>
+				<a href="https://yfuni.finance/" style="cursor: pointer"><button type="button" style="cursor: pointer; border-radius: 10px; margin-top: 2rem; padding: .5rem 3rem; color: #fbfbfb !important; background: #FF2D82 !important; border: none;">Home</button></a>
+			</center>
+        </div>
+    </div>
+    <script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Organization",
+		  "name": "YFUNI",
+		  "logo":"https://yfuni.finance/assets/img/logoheader.svg",
+		  "url": "https://yfuni.finance/",
+		  "sameAs": [
+			"https://www.twitter.com/yfunifinance",
+			"https://github.com/yfuni",
+			"https://medium.com/@yfuni.finance",
+			"https://t.me/yfuni",
+			"https://t.me/yfunifinance"
+		  ]
+		}
+	  </script>
+</body>
+
+</html>
