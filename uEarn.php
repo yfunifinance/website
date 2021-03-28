@@ -22,7 +22,7 @@
     <body>
         <?php include("header.php"); ?>
         <div class="container bghead3 mt-5">
-            <h2 class="mt-5 mb-5 card-title text-center"><b>uEarn v1.0</b></h2>
+            <h2 class="mt-5 mb-5 card-title text-center"><b>uEarn v1.0.2</b></h2>
             
             <div class="card" id="cardstake" class="cardstakeww">
                 <div class="card-body stakess">
